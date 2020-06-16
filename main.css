@@ -151,7 +151,7 @@ h1 {
 
 .footer {
     background-color: var(--b87);
-    height: 700px;
+    height: 900px;
     position: relative;
     display: flex;
     justify-content: space-evenly;
@@ -177,6 +177,27 @@ h1 {
     border-radius: 200px; 
     height: 220px; 
     width: 220px; 
+}
+
+.team {
+    display: flex; 
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.team div{
+    display: flex; 
+    flex-direction:column;
+    margin: 0 20px 48px 0;
+}
+
+.team div a{
+    margin: 0 auto;
+}
+
+.team div img, .team div label{
+    margin: 24px auto 0 auto;
 }
 
 /* On screens that are 600px or less*/
